@@ -65,10 +65,10 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 ## 📂 Repository Structure
 
 sql-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
+
+datasets/                           # Raw datasets used for the project (ERP and CRM data)
+
+docs/                               # Project documentation and architecture details
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.docx               # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
