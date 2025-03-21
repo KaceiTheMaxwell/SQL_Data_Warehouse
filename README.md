@@ -66,25 +66,33 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 sql-data-warehouse-project/
 
-datasets/                           # Raw datasets used for the project (ERP and CRM data)
+datasets/                            # Raw datasets used for the project (ERP and CRM data)
 
 docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.docx               # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_integration.drawio         # Draw.io file for the data relationship diagram
-│   ├── star_schema.drawio              # Draw.io file for data models (star schema)
 
+data_architecture.drawio        # Draw.io file shows the project's architecture
+
+data_catalog.docx               # Catalog of datasets, including field descriptions and metadata
+
+data_flow.drawio                # Draw.io file for the data flow diagram
+
+data_integration.drawio         # Draw.io file for the data relationship diagram
+
+star_schema.drawio              # Draw.io file for data models (star schema)
+
+scripts/                            # SQL scripts for ETL and transformations
+
+bronze/                         # Scripts for extracting and loading raw data
+
+silver/                         # Scripts for cleaning and transforming data
+
+gold/                           # Scripts for creating analytical models
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+tests/                              # Test scripts and quality files
 │
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-└── LICENSE                             # License information for the repository
+README.md                           # Project overview and instructions
+
+LICENSE                             # License information for the repository
 
 ---
 
