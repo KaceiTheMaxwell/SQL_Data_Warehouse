@@ -4,7 +4,25 @@ Welcome to the **Data Warehouse and Analytics Project** repository.
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. It was developed as a portfolio project that highlights industry best practices in data engineering and analytics.
 
 ---
+## Project Overview
 
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- SQL Development
+- Data Architect
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics  
+
+
+---
 ## Project Requirements
 
 ### Build a Data Warehouse (Data Engineering)
@@ -32,11 +50,48 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights will empower stakeholders with key business metrics, enabling strategic decision-making
 
 ---
+---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+
+
+## 📂 Repository Structure
+
+sql-data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.docx               # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_integration.drawio         # Draw.io file for the data relationship diagram
+│   ├── star_schema.drawio              # Draw.io file for data models (star schema)
+
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+└── LICENSE                             # License information for the repository
+
+---
 
 ## License
 
-This project is licensed under the [MIT License]. It was developed following a lesson by Baraa Khalib Salkini. You are free to use, modify, and share with proper attribution.
+This project is licensed under the [MIT License]. It was developed under the guidance of Baraa Khalib Salkini. You are free to use, modify, and share with proper attribution.
 
 ## About Me
 
-Hey there! I'm Karl C. Clarke - Change Analyst transitioning into Data Science. I am excited for this new journey as I merge a wealth of experience in change management, learning and development, customer/partner success management, and STEM research and education. 
+Hey there! I'm Karl C. Clarke - Change Analyst transitioning into Data Science. I am excited for this new journey as I merge a wealth of experience in scientific research, learning and development, and product ownership with change management, customer/partner success management, and data analytics. 
