@@ -102,4 +102,4 @@ This project is licensed under the [MIT License]. It was developed under the gui
 
 ## About Me
 
-Hey there! I'm Karl C. Clarke - Change Analyst transitioning into Data Science. I am excited for this new journey as I merge a wealth of experience in scientific research, learning and development, and product ownership with change management, customer/partner success management, and data analytics. 
+Hey there! I'm Karl - a strategy, research and enablement professional. I am excited for this new journey as I merge a wealth of experience in scientific research, learning and development, and product ownership with customer/partner success management, data analytics, and finance.
