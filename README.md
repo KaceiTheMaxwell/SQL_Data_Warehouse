@@ -102,4 +102,4 @@ This project is licensed under the [MIT License]. It was developed under the gui
 
 ## About Me
 
-Hey there! I'm Karl - a strategy, research and enablement professional. I am excited for this new journey as I merge a wealth of experience in scientific research, learning and development, and product ownership with customer/partner success management, data analytics, and finance.
+Hey there! I'm Karl - a strategy, research and enablement professional transitioning into sustainable finance with coverage across FP&A, risk assessment, and investment analysis. I am excited for this new journey as I merge a wealth of experience in scientific research, learning and development, and product ownership with customer/partner success management, data analytics, and finance.
